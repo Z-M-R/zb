@@ -25,7 +25,7 @@
 <script>
     //用户名登陆以后获取用户名
     var username = prompt('请输入用户名');
-    var ws = new WebSocket("ws://39.96.161.22:9502");
+    var ws = new WebSocket("ws://123.56.158.49:9502");
     ws.onopen = function () {
         var message = '{"type":"login","con":"'+username+'"}';
         // console.log(message);
@@ -87,7 +87,7 @@
 
     var player = new Aliplayer({
             "id": "player-con",
-            "source": "rtmp://youke.fangtaoys.com/myone/one?auth_key=1583290919-0-0-0a6f43e76c9cdb45e68bffb9ef42b11b",
+            "source": "rtmp://youke.zmrzzj.com/zhang/zhang?auth_key=1583302235-0-0-c7ab5c3c6e80d528e2a6106811bda0a3",
             "width": "65%",
             "height": "550px",
             "autoplay": true,
